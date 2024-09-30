@@ -21,97 +21,28 @@ const coursesData: CourseData[] = [
 		category: 'Cursos',
 		courses: [
 			{
-				name: 'HTML y CSS',
-				href: '/htmlYCss',
-			},
-			{
-				name: 'Javascript',
-				href: '/javascript',
-			},
-			{
-				name: 'React',
-				href: '/react',
-			},
-			{
-				name: 'Backend',
-				href: '/backend',
-			},
-			{
-				name: 'Testing',
-				href: '/testing',
-			},
-			{
-				name: 'Community Manager',
-				href: '/communityManager',
-			},
-			{
-				name: 'Preparacion Exámen PMP',
-				href: '/examenPMP',
-			},
-			{
-				name: 'Google Ads',
-				href: '/googleAds',
-			},
-		],
-	},
-	{
-		category: 'Diplomatura',
-		courses: [
-			{
 				name: 'Fullstack',
 				href: '/fullstack',
-			},
-			{
-				name: 'Frontend',
-				href: '/frontend',
-			},
-			{
-				name: 'Diseño UX/UI',
-				href: '/disenoUXUI',
-			},
-			{
-				name: 'Wordpress',
-				href: '/wordPress',
 			},
 			{
 				name: 'Marketing Digital',
 				href: '/marketing',
 			},
-			{
-				name: 'Marketing Político',
-				href: '/marketingPolitico',
-			},
-			{
-				name: 'Ciberseguridad',
-				href: '/ciberseguridad',
-			},
-			{
-				name: 'Data Analytics',
-				href: '/dataAnalytics',
-			},
-			{
-				name: 'Project Management',
-				href: '/projectManagement',
-			},
-			{
-				name: 'Project Management Asincrónico',
-				href: '/projectManagementAsincronico',
-			},
 		],
 	},
 	{
-		category: 'Accesos',
+		category: 'Acessos',
 		courses: [
 			{
 				name: 'Blog',
 				href: '/blog',
 			},
 			{
-				name: 'La Academia',
+				name: 'Sobre a gente',
 				href: '/nosotros',
 			},
 			{
-				name: 'Terminos y condiciones',
+				name: 'Termos e Condições',
 				href: '/terminos-y-condiciones',
 			},
 		],
@@ -119,15 +50,15 @@ const coursesData: CourseData[] = [
 ];
 const contactData: ContactData[] = [
 	{
-		category: 'Contacto',
+		category: 'Contato',
 		details: [
-			{ icon: '/location.svg', text: 'Huergo 949 Piso 12' },
+			{ icon: '/location.svg', text: 'Avenida Paulista' },
 			{
 				icon: '/location.svg',
-				text: 'Buenos Aires - Argentina',
+				text: 'São Paulo , Brasil',
 			},
-			{ icon: '/cell.svg', text: '+54 (11) 3126-2388' },
-			{ icon: '/mail.svg', text: 'info@academianumen.com' },
+			{ icon: '/cell.svg', text: '+55 (11) 3126-2388' },
+			{ icon: '/mail.svg', text: 'xxxxxx@gmail.com' },
 		],
 	},
 ];
@@ -245,7 +176,7 @@ const Footer: React.FC = () => {
 					Copyright
 					<span>
 						{' '}
-						&copy; {new Date().getFullYear()} Desarrollado
+						&copy; {new Date().getFullYear()} Desenvolvido
 						por NUMEN PUBLICIDAD.
 					</span>
 				</p>

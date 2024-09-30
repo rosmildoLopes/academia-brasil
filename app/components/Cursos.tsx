@@ -15,9 +15,6 @@ import CursosMobile from './CursosMobile';
 type Categoria =
 	| 'desarrollo'
 	| 'marketing'
-	| 'projectManagement'
-	| 'seguridadYData'
-	| 'idiomas';
 
 const Cursos = () => {
 	const [emblaRef, emblaApi] = useEmblaCarousel(
@@ -47,7 +44,7 @@ const Cursos = () => {
 		if (!cursosCategoria) {
 			return (
 				<p>
-					No hay cursos disponibles para esta categoría.
+					Não há cursos disponíveis para esta categoria.
 				</p>
 			);
 		}
@@ -157,7 +154,7 @@ const Cursos = () => {
 												className='mr-3'
 											/>
 											<p className='text-sm md:text-lg text-white'>
-												Modalidad{' '}
+												Modalidade{' '}
 												<span className='font-extrabold'>
 													{curso.modality}
 												</span>
@@ -172,7 +169,7 @@ const Cursos = () => {
 												className='mr-3'
 											/>
 											<p className='text-sm md:text-lg text-white'>
-												Duración de{' '}
+											Duração de{' '}
 												<span className='font-extrabold'>
 													{curso.time}
 												</span>
@@ -199,7 +196,7 @@ const Cursos = () => {
 												className='mr-3'
 											/>
 											<p className='text-sm md:text-lg text-white'>
-												Apoyo{' '}
+												Ajuda{' '}
 												<span className='font-extrabold'>
 													{curso.support}
 												</span>
@@ -213,7 +210,7 @@ const Cursos = () => {
 											rel='noopener noreferrer'
 											className='px-8 py-3 mb-6 border border-black rounded-full bg-black text-white font-black md:text-[18px] text-[11px]'
 										>
-											Más información
+											Mais informações
 										</a>
 									</div>
 								</div>
@@ -237,7 +234,7 @@ const Cursos = () => {
 				<h3
 					className={`${titan.className} text-white pb-5 mg:text-4xl text-2xl`}
 				>
-					CURSOS Y DIPLOMATURAS
+					CURSOS
 				</h3>
 				<Image
 					src={'./starIconCursos.svg'}
@@ -255,7 +252,7 @@ const Cursos = () => {
 							handleCategoriaClick('desarrollo')
 						}
 					>
-						Desarrollo
+						Programação
 					</button>
 					<button
 						className={`px-7 py-2 font-black rounded-3xl text-firstBlue border-2 border-firstBlue active:bg-firstBlue active:text-black`}
@@ -265,28 +262,6 @@ const Cursos = () => {
 					>
 						Marketing
 					</button>
-					<button
-						className={`px-7 py-2 font-black rounded-3xl text-firstBlue border-2 border-firstBlue active:bg-firstBlue active:text-black`}
-						onClick={() =>
-							handleCategoriaClick('projectManagement')
-						}
-					>
-						Project Management
-					</button>
-					<button
-						className={`px-7 py-2 font-black rounded-3xl text-firstBlue border-2 border-firstBlue active:bg-firstBlue active:text-black`}
-						onClick={() =>
-							handleCategoriaClick('seguridadYData')
-						}
-					>
-						Seguridad y Data
-					</button>
-					{/* <button
-						className={`px-7 py-2 font-black rounded-3xl text-firstBlue border-2 border-firstBlue active:bg-firstBlue active:text-black`}
-						onClick={() => handleCategoriaClick('idiomas')}
-					>
-						Idiomas
-					</button> */}
 				</div>
 			</div>
 			<CursosMobile

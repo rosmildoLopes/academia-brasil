@@ -1,35 +1,27 @@
 export const faqs = [
 	{
-		question: '¿Necesito tener algún conocimiento previo ?',
+		question: 'Preciso ter algum conhecimento prévio?',
 		answer:
-			'No, la diplomatura está diseñada para personas de todos los niveles. Incluso si no tienes experiencia previa, encontrarás contenido accesible y desafiante para tu nivel de conocimiento.',
+			'Não, o curso está projetado para pessoas de todos os níveis. Mesmo que você não tenha experiência prévia, encontrará conteúdo acessível e desafiador para o seu nível de conhecimento.',
 	},
 	{
-		question: '¿La diplomatura tiene una fecha de inicio ?',
+		question: 'O curso tem uma data de início?',
 		answer:
-			'Sí, la diplomatura tiene fechas de inicio específicas. Puedes consultar nuestro calendario para conocer las próximas fechas de inicio y asegurarte de unirte en el momento adecuado.',
+			'Sim, o curso tem datas de início específicas. Você pode consultar nosso calendário para saber as próximas datas e garantir que se inscreva no momento adequado.',
 	},
 	{
-		question:
-			'¿Por cuánto tiempo tendré acceso al campus ?',
+		question: 'Por quanto tempo terei acesso ao campus?',
 		answer:
-			'Una vez que te inscribes en la diplomatura, tendrás acceso al campus virtual durante todo el periodo del programa. Esto incluye material del curso, tareas, y recursos adicionales.',
+			'Depois de se inscrever no curso, você terá acesso ao campus virtual durante todo o período do programa. Isso inclui material do curso, tarefas e recursos adicionais.',
 	},
 	{
-		question: '¿Cómo se paga la diplomatura ?',
+		question: 'Como faço o pagamento do curso?',
 		answer:
-			'El pago de la diplomatura se realiza a través de nuestro sistema seguro en línea. Aceptamos varias formas de pago, como tarjetas de crédito y otros métodos electrónicos. Puedes encontrar detalles sobre las opciones de pago en nuestra plataforma de inscripción.',
+			'O pagamento do curso é feito através do nosso sistema online seguro. Aceitamos várias formas de pagamento, como cartões de crédito e outros métodos eletrônicos. Você pode encontrar detalhes sobre as opções de pagamento na nossa plataforma de inscrição.',
 	},
 	{
-		question:
-			'¿La diplomatura me prepara para certificarme en Google ?',
+		question: 'O curso me prepara para me certificar no Google?',
 		answer:
-			'Sí, la diplomatura está diseñada para proporcionarte las habilidades y conocimientos necesarios para certificarte en Google. Los contenidos del curso están alineados con los requisitos de certificación, y nuestros instructores te guiarán en la preparación para los exámenes de certificación.',
-	},
-	{
-		question:
-			'¿Qué diferencia tiene una diplomatura y un curso ?',
-		answer:
-			'La principal diferencia radica en la duración y la profundidad del contenido. Mientras que un curso puede ser más breve y centrarse en temas específicos, una diplomatura abarca varios temas durante un periodo más prolongado. La diplomatura a menudo incluye proyectos prácticos y evaluaciones más extensas.',
+			'Sim, o curso é projetado para fornecer as habilidades e conhecimentos necessários para se certificar no Google. O conteúdo do curso está alinhado com os requisitos de certificação, e nossos instrutores irão guiá-lo na preparação para os exames de certificação.',
 	},
 ];

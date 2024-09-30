@@ -84,21 +84,21 @@ export default function HeroMarketing() {
 					onClick={handleButtonClick}
 					className='px-3 py-2 border-2 border-firstBlue rounded-3xl hover:bg-firstBlue hover:text-black md:text-lg text-center md:px-16 md:py-3 md:text-black md:bg-firstBlue md:rounded-full md:hover:bg-transparent md:hover:text-firstBlue'
 				>
-					Descargar Programa
+					Baixar Programa
 				</button>
 				<Link
 					href='https://web.whatsapp.com/send?phone=5491131262388&text=Estoy%20interesado%20en%20el%20curso%20de%20Marketing%20Digital%20,me%20gustaría%20recibir%20mas%20información'
 					target='_blank'
 					className='px-3 py-2 border-2 border-firstBlue rounded-3xl hover:bg-firstBlue hover:text-black md:text-lg md:px-16 md:py-3 text-center md:text-black md:bg-firstBlue md:rounded-full md:hover:bg-transparent md:hover:text-firstBlue'
 				>
-					Quiero hablar con alguien
+					Quero falar com alguém
 				</Link>
 				<Link
 					href='https://tienda.academianumen.com.ar/producto/marketing-digital-inicio-agosto-2024/'
 					target='_blank'
 					className='px-3 py-2 border-2 border-firstBlue rounded-3xl hover:bg-firstBlue hover:text-black md:text-lg md:px-16 md:py-3 text-center md:text-black md:bg-firstBlue md:rounded-full md:hover:bg-transparent md:hover:text-firstBlue'
 				>
-					Inscribirme
+					Inscrever-se
 				</Link>
 			</div>
 			{showModal && (

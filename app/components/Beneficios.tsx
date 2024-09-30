@@ -21,7 +21,7 @@ const Beneficios = () => {
 				<h2
 					className={`${titan.className} font-bold text-2xl md:text-4xl text-white md:w-9/12 mx-auto`}
 				>
-					BENEFICIOS DE{' '}
+					BENEFICIOS DA{' '}
 					<span
 						className={`${agba.className} text-firstBlue text-2xl md:text-4xl`}
 					>
@@ -41,8 +41,8 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Comisiones <br />
-							reducidas
+							Comições <br />
+							reduzidas
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -55,8 +55,8 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Bolsa de <br />
-							trabajo
+							Quadro de <br />
+							empregos
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -69,7 +69,7 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Certificación <br /> oficial
+							Certificação <br /> oficial
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -82,7 +82,7 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Comunidad <br />{' '}
+							Comunidade <br />{' '}
 							<span
 								className={`${agba.className} text-firstBlue`}
 							>
@@ -102,8 +102,7 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Comisiones <br />
-							reducidas
+							Comições <br /> reduzidas
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -116,8 +115,8 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Bolsa de <br />
-							trabajo
+							Quadro de <br />
+							empregos
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -130,7 +129,7 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Certificación <br /> oficial
+							Certificação <br /> oficial
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -143,7 +142,7 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Comunidad <br />{' '}
+							Comunidade <br />{' '}
 							<span
 								className={`${agba.className} text-firstBlue`}
 							>
@@ -163,8 +162,8 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Comisiones <br />
-							reducidas
+							Comições <br />
+							reduzidas
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -177,8 +176,8 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Bolsa de <br />
-							trabajo
+							Quadro de <br />
+							empregos
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -191,7 +190,7 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Certificación <br /> oficial
+							Certificação <br /> oficial
 						</p>
 					</div>
 					<div className='flex flex-row items-center mr-40'>
@@ -204,12 +203,12 @@ const Beneficios = () => {
 							className='w-[50px] h-[50px] md:w-[75px] md:h-[75px]'
 						/>
 						<p className='pl-2 md:text-3xl text-lg text-white font-bold'>
-							Comunidad <br />{' '}
+							Comunidade <br />{' '}
 							<span
 								className={`${agba.className} text-firstBlue`}
 							>
 								Numen %
-							</span> 
+							</span>
 						</p>
 					</div>
 				</div>

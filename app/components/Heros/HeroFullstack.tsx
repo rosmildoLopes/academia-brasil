@@ -47,9 +47,9 @@ export default function HeroFullstack() {
 				/>
 			</div>
 			<h2
-				className={`${titan.className} flex justify-center mb-6 md:pr-30 md:mb-10 mx-auto text-green-gradient text-5xl lg:text-9xl`}
+				className={`${titan.className} flex justify-center mb-6 md:pr-30 md:mb-10 mx-auto text-green-gradient text-4xl lg:text-8xl`}
 			>
-				DESARROLLO
+				DESENVOLVIMENTO
 			</h2>
 			<Image
 				src={'./fullstackIconHero.svg'}
@@ -75,7 +75,7 @@ export default function HeroFullstack() {
 					onClick={handleButtonClick}
 					className='px-3 py-2 border-2 border-firstBlue text-center rounded-3xl hover:bg-firstBlue hover:text-black md:text-lg md:px-16 md:py-3 md:text-black md:bg-firstBlue md:rounded-full md:hover:bg-transparent md:hover:text-firstBlue'
 				>
-					Descargar Programa
+					Baixar Programa
 				</button>
 				<HablarConAsesor
 					message='Estoy interesado en el curso de Fullstack , me gustaría recibir mas información'
@@ -86,7 +86,7 @@ export default function HeroFullstack() {
 					target='_blank'
 					className='px-3 py-2 border-2 border-firstBlue text-center rounded-3xl hover:bg-firstBlue hover:text-black md:text-lg md:px-16 md:py-3 md:text-black md:bg-firstBlue md:rounded-full md:hover:bg-transparent md:hover:text-firstBlue'
 				>
-					Inscribirme
+					Inscrever-se
 				</Link>
 			</div>
 			{showModal && (

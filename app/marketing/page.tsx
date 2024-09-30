@@ -26,8 +26,8 @@ const eventos = [
 	{
 		startDate: '12/11/24',
 		endDate: '12/06/25',
-		meetingDate: 'Martes 19 Hs',
-		buttonText: 'Quiero empezar',
+		meetingDate: 'Terça 19 Hs',
+		buttonText: 'Quero começar',
 	},
 ];
 // Fechas agotadas
@@ -35,8 +35,8 @@ const eventosSoldOut = [
 	{
 		startDate: '08/08/24',
 		endDate: '08/03/25',
-		meetingDate: 'Jueves 19 Hs',
-		buttonText: 'Quiero empezar',
+		meetingDate: 'Quinta 19 Hs',
+		buttonText: 'Quero começar',
 	},
 ];
 const misLearningItems: LearningItem[] = [
@@ -48,30 +48,30 @@ const misLearningItems: LearningItem[] = [
 	{
 		id: 2,
 		message:
-			'Técnicas y herramientas para diseñar estrategias de Marketing Digital',
+			'Técnicas e ferramentas para desenhar estratégias de Marketing Digital',
 		boldStart: 0,
 	},
 	{
 		id: 3,
 		message:
-			'Identificar contenidos y redes sociales acordes al público objetivo.',
+			'Identifique conteúdos e redes sociais de acordo com o público-alvo.',
 		boldStart: 0,
 	},
 	{
 		id: 4,
 		message:
-			'Pauta publicitaria: Google Ads, Meta Ads y mailing.',
+			'Pauta publicitária: Google Ads, Meta Ads e e-mail marketing.',
 		boldStart: 0,
 	},
 	{
 		id: 5,
-		message: 'Análisis de datos y elaboración de reportes',
+		message: 'Análise de dados e relatórios',
 		boldStart: 0,
 	},
 	{
 		id: 6,
 		message:
-			'Segmentar y dirigir tus mensajes a audiencias específicas',
+			'Segmentar e direcionar suas mensagens para públicos específicos',
 		boldStart: 0,
 	},
 ];
@@ -143,14 +143,14 @@ export default function Marketing() {
 				<h2
 					className={` ${titan.className} text-white text-center text-4xl`}
 				>
-					DOCENTES
+					PROFESSORES
 				</h2>
 				<Docentes dataDocentes={docentesMarketing} />
 				<div className='flex flex-col w-full justify-center items-center'>
 					<h2
 						className={` ${titan.className} text-white text-center text-2xl mb-5 lg:text-3xl`}
 					>
-						LO QUE TENÉS QUE SABER SOBRE LA DIPLOMATURA
+						O QUE VOCÊ PRECISA SABER SOBRE O CURSO
 					</h2>
 					<div className='flex relative w-full'>
 						<Image

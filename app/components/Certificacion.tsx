@@ -182,30 +182,29 @@ const Certificacion = ({ options }: PropType) => {
 					<h2
 						className={`${titan.className} text-4xl lg:text-3xl lg:text-end`}
 					>
-						CERTIFICACIÓN OFICIAL
+						CERTIFICAÇÃO OFICIAL
 					</h2>
 					<h3
 						className={`${agba.className} text-violet-to-green-gradient text-2xl lg:text-xl lg:text-end`}
 					>
-						Tu esfuerzo tiene valor
+						Seu esforço tem valor
 					</h3>
 					<p className='py-4 justify-center text-md lg:text-xs lg:text-end'>
-						Nuestros cursos cuentan con{' '}
+					Nossos cursos possuem{' '}
 						<strong>
-							certificado de extensión universitaria
+						certificado de extensão universitária
 						</strong>{' '}
-						y
+						e
 						<strong>
 							{' '}
-							título de <br /> Diplomatura
+							diploma, <br />
 						</strong>
-						, cumpliendo con todos los estándares y
-						requisitos oficiales. También nos <br />{' '}
-						acompañan las principales plataformas.
+						atendendo a todos os padrões e requisitos oficiais. Nós também<br />{' '}
+						temos o apoio das principais plataformas.
 					</p>
 
 					<div className='lg:w-full lg:flex lg:flex-row hidden items-center justify-center'>
-						<div className='pb-4 gap-1 w-full hidden lg:flex lg:flex-row items-center justify-center flex-wrap'>
+						{/* <div className='pb-4 gap-1 w-full hidden lg:flex lg:flex-row items-center justify-center flex-wrap'>
 							{images.map((image, index) => (
 								<div
 									className={`flex mx-auto justify-center items-center w-44 h-44 ${
@@ -223,7 +222,9 @@ const Certificacion = ({ options }: PropType) => {
 									/>
 								</div>
 							))}
-						</div>
+						</div> */}
+
+						<p className='text-4xl mt-24'>Aca deberian ir imagenes de plataformas "partners"</p>
 					</div>
 
 					<div
@@ -262,7 +263,7 @@ const Certificacion = ({ options }: PropType) => {
 				</div>
 			</div>
 
-			<div className='flex flex-col items-center justify-center w-full '>
+			{/* <div className='flex flex-col items-center justify-center w-full '>
 				<button
 					onClick={openModal}
 					className='px-3 py-2 border-2 border-firstBlue text-center rounded-3xl bg-firstBlue text-black md:text-lg md:px-16 md:py-3 font-black md:bg-firstBlue md:rounded-full md:hover:bg-transparent md:hover:text-firstBlue'
@@ -298,7 +299,8 @@ const Certificacion = ({ options }: PropType) => {
 						<p>No encontramos el DNI</p>
 					</div>
 				)}
-			</div>
+			</div> */}
+
 		</div>
 	);
 };

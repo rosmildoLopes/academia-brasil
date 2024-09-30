@@ -27,8 +27,8 @@ const eventos = [
 	{
 		startDate: '13/11/24',
 		endDate: '13/07/25',
-		meetingDate: 'Miércoles 19 Hs',
-		buttonText: 'Quiero empezar',
+		meetingDate: 'Quarta, 19 Hs',
+		buttonText: 'Quero começar',
 	},
 ];
 // Fechas agotadas
@@ -36,32 +36,33 @@ const eventosSoldOut = [
 	{
 		startDate: '02/08/24',
 		endDate: '02/04/25',
-		meetingDate: 'Viernes 19 Hs',
-		buttonText: 'Quiero empezar',
+		meetingDate: 'Sexta-feira, 19h',
+		buttonText: 'Quero começar',
 	},
 ];
 const misLearningItems: LearningItem[] = [
 	{
 		id: 1,
 		message:
-			'Crear sitios web adaptables y dinámicos desde cero',
-		boldStart: 17,
+			'Criar sites adaptáveis e dinâmicos do zero',
+		boldStart: 6,
 	},
 	{
 		id: 12,
-		message: 'Agregar interactividad con Javascript',
-		boldStart: 8,
+		message: 'Adicionar interatividade com Javascript',
+		boldStart: 9,
 	},
 	{
 		id: 3,
-		message: 'Crear sitios más complejos con React',
-		boldStart: 12,
+		message: 'Criar sites mais complexos com React',
+		boldStart: 17,
 	},
 	{
 		id: 4,
-		message: 'Tecnologías del lado del servidor (backend)',
-		boldStart: 16,
+		message: 'Tecnologias do lado do servidor (backend)',
+		boldStart: 15,
 	},
+
 ];
 export default function fullstack() {
 	return (
@@ -131,7 +132,7 @@ export default function fullstack() {
 				<h2
 					className={` ${titan.className} text-white text-center text-4xl`}
 				>
-					DOCENTES
+					PROFESSORES
 				</h2>
 				<Docentes dataDocentes={docentesFullstack} />
 
@@ -139,7 +140,7 @@ export default function fullstack() {
 					<h2
 						className={` ${titan.className} text-white text-center text-2xl mb-5 lg:text-3xl`}
 					>
-						LO QUE TENÉS QUE SABER SOBRE LA DIPLOMATURA
+						O QUE VOCÊ PRECISA SABER SOBRE O CURSO
 					</h2>
 					<Faq faqs={faqs} />
 				</div>

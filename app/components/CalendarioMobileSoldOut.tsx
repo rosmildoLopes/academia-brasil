@@ -68,7 +68,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 			eventosSoldOut.length === 0 ? (
 				<div className='flex flex-col items-center justify-center h-64'>
 					<p className='text-2xl font-bold'>
-						No hay eventos disponibles
+						Nenhum evento disponível
 					</p>
 				</div>
 			) : (
@@ -99,7 +99,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 									</div>
 									<div className='border-black w-full flex flex-col items-start'>
 										<p className='font-extrabold mb-2'>
-											Desde el{' '}
+											De{' '}
 										</p>
 										<p className='font-black text-4xl'>
 											{evento.startDate}
@@ -107,7 +107,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 									</div>
 									<div className='border-black flex flex-row  items-center border-b-2 pb-4 gap-2'>
 										<p className='text-start font-extrabold'>
-											Hasta el{' '}
+											Até{' '}
 										</p>
 										<p className='text-start font-black text-lg'>
 											{evento.endDate}
@@ -147,7 +147,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 										</div>
 										<div className='border-black w-full flex flex-col items-start'>
 											<p className='font-extrabold mb-2'>
-												Desde el{' '}
+												De{' '}
 											</p>
 											<p className='font-black text-4xl'>
 												{evento.startDate}
@@ -155,7 +155,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 										</div>
 										<div className='border-black flex flex-row  items-center border-b-2 pb-4 gap-2'>
 											<p className='text-start font-extrabold'>
-												Hasta el{' '}
+												Até{' '}
 											</p>
 											<p className='text-start font-black text-lg'>
 												{evento.endDate}
@@ -214,13 +214,16 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 											width={60}
 										/>
 										<p>
-											Quiero que me{' '}
-											<strong>contacte un asesor</strong>
-											para más información
+											Quero entrar em{' '}
+											<strong>
+												contato com um <br />
+												asessor{' '}
+											</strong>
+											para mais informações
 										</p>
 									</div>
 									<button className='text-white text-sm font-extrabold py-5'>
-										Ver más
+										Ver mais
 									</button>
 								</Link>
 								<Link
@@ -238,12 +241,11 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 											width={60}
 										/>
 										<p>
-											Quiero{' '}
+											Quero fazer o{' '}
 											<strong>
-												preinscribirme para guardar mi
-												vacante
-											</strong>
-											(no tendrás que pagar aún)
+												pré-cadastro para guardar minha vaga
+											</strong>{' '}
+											(você não terá que pagar ainda)
 										</p>
 									</div>
 									<Link
@@ -251,7 +253,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 										target='_blank'
 										className='text-white text-sm font-extrabold py-5'
 									>
-										Ver más
+										Ver mais
 									</Link>
 								</Link>
 								<Link
@@ -267,12 +269,12 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 											width={60}
 										/>
 										<p className='text-center'>
-											Quiero
+											Quero
 											<strong>
 												{' '}
-												Inscribirme y comenzar ya
+												me inscrever e começar agora{' '}
 											</strong>
-											! (pago online)
+											(pagamento online)
 										</p>
 									</div>
 									<Link
@@ -280,7 +282,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 										target='_blank'
 										className='text-white text-sm font-extrabold py-5'
 									>
-										Ver más
+										Ver mais
 									</Link>
 								</Link>
 							</div>
@@ -289,7 +291,7 @@ const CalendarioMobile: React.FC<CalendarioProps> = ({
 							className='bg-white text-black px-8 py-3 rounded-3xl font-black'
 							onClick={closeModal}
 						>
-							Cerrar
+							Fechar
 						</button>
 					</div>
 				</div>

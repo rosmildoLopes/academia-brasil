@@ -24,10 +24,9 @@ const vocacionFonts = [
 	{ letter: 'o', fontClass: bagel.className },
 	{ letter: 'c', fontClass: ultra.className },
 	{ letter: 'a', fontClass: shrikhand.className },
-	{ letter: 'c', fontClass: ultra.className },
-	{ letter: 'i', fontClass: ultra.className },
-	{ letter: 'ó', fontClass: shrikhand.className },
-	{ letter: 'n', fontClass: luckiest.className },
+	{ letter: 'ç', fontClass: ultra.className },
+	{ letter: 'ã', fontClass: ultra.className },
+	{ letter: 'O', fontClass: shrikhand.className },
 ];
 
 const Contacto = () => {
@@ -37,14 +36,14 @@ const Contacto = () => {
 				<div
 					className={`${titan.className} text-white text-3xl lg:text-5xl lg:mt-10 flex flex-wrap justify-center items-center w-7/12 text-center`}
 				>
-					<p>ESTUDIÁ EN&nbsp;</p>
+					<p>ESTUDE NA&nbsp;</p>
 					<p className={`${agba.className} text-firstBlue`}>
-						ACADEMIA&nbsp;NUMEN<span>,</span>
+						NUMEN&nbsp;ACADEMY
 					</p>
 					<p
 						className={`${titan.className} text-green-gradient`}
 					>
-						ESTÉS DONDE ESTÉS
+						ONDE VOCÊ ESTIVER
 					</p>
 				</div>
 			</div>
@@ -52,7 +51,7 @@ const Contacto = () => {
 				<Consulta />
 				<ContactForm />
 			</div>
-			<div className='flex justify-center items-center w-10/12 lg:w-9/12 relative mx-auto my-6'>
+			<div className='flex justify-center items-center w-10/12 lg:w-9/12 relative mx-auto my-6 '>
 				<div className='text-white flex flex-row gap-8 justify-center items-center text-4xl lg:text-7xl'>
 					<div className='flex items-center gap-6 w-11/12 mx-auto'>
 						<Image
@@ -62,10 +61,10 @@ const Contacto = () => {
 							height={100}
 							className='w-6 md:w-12 '
 						/>
-						<div className='flex flex-col'>
-							<div className='flex'>
+						<div className='flex flex-col justify-center items-center'>
+							<div className='flex justify-center items-center'>
 								<p className={`${ultra.className}`}>
-									TU&nbsp;
+									SUA&nbsp;
 								</p>
 								<p>
 									{vocacionFonts.map((item, index) => (
@@ -78,13 +77,15 @@ const Contacto = () => {
 									))}
 								</p>
 							</div>
-							<div className='flex'>
-								<p className={`${ultra.className}`}>
-									TE{' '}
+							<div className='flex justify-center items-center'>
+								<p
+									className={`${ultra.className} text-center`}
+								>
+									ESPERA POR{' '}
 									<span
 										className={`${titan.className} text-green-gradient`}
 									>
-										ESPERA
+										VOCÊ
 									</span>
 								</p>
 							</div>

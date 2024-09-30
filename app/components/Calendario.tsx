@@ -57,7 +57,7 @@ const Calendario: React.FC<CalendarioProps> = ({
 							</div>
 						</div>
 						<div className='p-4 border-r-2 border-black w-full flex flex-col items-start pl-10'>
-							<p className='font-extrabold'>Desde el:</p>
+							<p className='font-extrabold'>De:</p>
 							<p className='font-black text-4xl'>
 								{startDate}
 							</p>
@@ -66,7 +66,7 @@ const Calendario: React.FC<CalendarioProps> = ({
 					<div className='flex w-3/4'>
 						<div className='p-4 border-r-2 border-black w-1/3 flex flex-col items-start pl-12'>
 							<p className='text-start font-extrabold'>
-								Hasta el:
+								Até:
 							</p>
 							<p className='text-start font-black text-4xl'>
 								{endDate}
@@ -119,15 +119,15 @@ const Calendario: React.FC<CalendarioProps> = ({
 									width={116.15}
 								/>
 								<p className='text-center pt-5 text-lg'>
-									Quiero que me{' '}
+									Quero entrar em{' '}
 									<strong>
-										contacte un <br />
-										asesor{' '}
+										contato com um <br />
+										asessor{' '}
 									</strong>
-									para mas información
+									para mais informações
 								</p>
 								<button className='text-white font-extrabold py-5'>
-									Ver más
+									Ver mais
 								</button>
 							</Link>
 							<Link
@@ -142,18 +142,18 @@ const Calendario: React.FC<CalendarioProps> = ({
 									width={116.15}
 								/>
 								<p className='text-center pt-5 text-lg'>
-									Quiero{' '}
+									Quero fazer o{' '}
 									<strong>
-										preinscribirme para guardar mi vacante
+										pré-cadastro para guardar minha vaga
 									</strong>{' '}
-									(no tendrás que pagar aún)
+									(você não terá que pagar ainda)
 								</p>
 								<Link
 									href={linkPreInscripcion}
 									target='_blank'
 									className='text-white font-extrabold py-5'
 								>
-									Ver más
+									Ver mais
 								</Link>
 							</Link>
 							<Link
@@ -168,18 +168,18 @@ const Calendario: React.FC<CalendarioProps> = ({
 									width={116.15}
 								/>
 								<p className='text-center pt-5 text-lg'>
-									Quiero{' '}
+									Quero{' '}
 									<strong>
-										Inscribirme y comenzar ya{' '}
+										me inscrever e começar agora{' '}
 									</strong>
-									! (pago online)
+									(pagamento on-line)
 								</p>
 								<Link
 									href={linkInscripcion}
 									target='_blank'
 									className='text-white font-extrabold py-5'
 								>
-									Ver más
+									Ver mais
 								</Link>
 							</Link>
 						</div>

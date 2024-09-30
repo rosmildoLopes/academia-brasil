@@ -54,7 +54,7 @@ const CaracteristicasDelCurso: React.FC<
 				<div
 					className={`${titan.className} text-white text-center w-full md:w-8/12 text-3xl mb-3 md:text-4xl flex-wrap`}
 				>
-					CARACTERÍSTICAS DEL CURSO
+					CARACTERÍSTICAS DO CURSO
 				</div>
 			</div>
 			<div className='flex flex-col md:flex-row w-11/12 mx-auto md:justify-between gap-4'>

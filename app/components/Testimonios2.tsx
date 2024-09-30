@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Testimonios = () => {
 	const [selectedValue, setSelectedValue] = useState(
-		'Project_Management',
+		'Fullstack',
 	);
 	const [emblaRef, emblaApi] = useEmblaCarousel(
 		{ loop: true },
@@ -57,132 +57,6 @@ const Testimonios = () => {
 						</div>
 					</div>
 				));
-			case 'Diseño_UX/UI':
-				return testimoniosData['Diseño UX/UI'].map(
-					testimonio => (
-						<div
-							key={testimonio.id}
-							className='embla__slide flex-shrink-0 flex-grow-0'
-						>
-							<div className='embla__slide__number md:max-w-[700px] max-w-[290px]'>
-								<h3 className='text-pink-700 lg:p-4 md:text-[16px] text-sm font-bold w-full md:max-w-auto mx-auto'>
-									<strong>{testimonio.name}</strong>/
-									{testimonio.profession}
-								</h3>
-								<p className='text-white italic md:max-w-[700px] max-w-[290px] md:text-[16px] text-sm w-full md:max-w-auto  mx-auto'>
-									{testimonio.review}
-								</p>
-								<Link
-									href={testimonio.linkedin}
-									target='_blank'
-									className='flex justify-center mt-8'
-								>
-									<Image
-										src='/verLinkedin.svg'
-										alt='LinkedIn'
-										width={118}
-										height={37}
-										className='w-32 md:w-56'
-									/>
-								</Link>
-							</div>
-						</div>
-					),
-				);
-			case 'FrontEnd':
-				return testimoniosData.FrontEnd.map(testimonio => (
-					<div
-						key={testimonio.id}
-						className='embla__slide flex-shrink-0 flex-grow-0'
-					>
-						<div className='embla__slide__number md:max-w-[700px]'>
-							<h3 className='text-pink-700 lg:p-4 md:text-[16px] text-sm font-bold w-full md:max-w-[700px] max-w-[290px] mx-auto'>
-								<strong>{testimonio.name}</strong>/
-								{testimonio.profession}
-							</h3>
-							<p className='text-white italic md:text-[16px] text-sm w-full md:max-w-[700px] max-w-[290px] mx-auto'>
-								{testimonio.review}
-							</p>
-							<Link
-								href={testimonio.linkedin}
-								target='_blank'
-								className='flex justify-center mt-8'
-							>
-								<Image
-									src='/verLinkedin.svg'
-									alt='LinkedIn'
-									width={118}
-									height={37}
-									className='w-32 md:w-56'
-								/>
-							</Link>
-						</div>
-					</div>
-				));
-			case 'Ciberseguridad':
-				return testimoniosData.Ciberseguridad.map(
-					testimonio => (
-						<div
-							key={testimonio.id}
-							className='embla__slide flex-shrink-0 flex-grow-0'
-						>
-							<div className='embla__slide__number md:max-w-[700px] max-w-[290px]'>
-								<h3 className='text-pink-700 lg:p-4 md:text-[16px] text-sm font-bold w-full md:max-w-[700px] max-w-[290px] mx-auto'>
-									<strong>{testimonio.name}</strong>/
-									{testimonio.profession}
-								</h3>
-								<p className='text-white italic md:text-[16px] text-sm w-full md:max-w-[700px] max-w-[290px] mx-auto'>
-									{testimonio.review}
-								</p>
-								<Link
-									href={testimonio.linkedin}
-									target='_blank'
-									className='flex justify-center mt-8'
-								>
-									<Image
-										src='/verLinkedin.svg'
-										alt='LinkedIn'
-										width={118}
-										height={37}
-										className='w-32 md:w-56'
-									/>
-								</Link>
-							</div>
-						</div>
-					),
-				);
-			case 'Community_Manager':
-				return testimoniosData['Community Manager'].map(
-					testimonio => (
-						<div
-							key={testimonio.id}
-							className='embla__slide flex-shrink-0 flex-grow-0'
-						>
-							<div className='embla__slide__number md:max-w-[700px] max-w-[290px]'>
-								<h3 className='text-pink-700 lg:p-4 md:text-[16px] text-sm font-bold w-full md:max-w-auto mx-auto'>
-									<strong>{testimonio.name}</strong>/
-									{testimonio.profession}
-								</h3>
-								<p className='text-white italic md:max-w-[700px] max-w-[290px] md:text-[16px] text-sm w-full md:max-w-auto  mx-auto'>
-									{testimonio.review}
-								</p>
-								<Link
-									href={testimonio.linkedin}
-									target='_blank'
-									className='flex justify-center mt-8'
-								>
-									<Image
-										src='/verLinkedin.svg'
-										alt='LinkedIn'
-										width={118}
-										height={37}
-										className='w-32 md:w-56'
-									/>
-								</Link>
-							</div>
-						</div>
-					),
-				);
 			case 'Marketing_Digital':
 				return testimoniosData['Marketing Digital'].map(
 					testimonio => (
@@ -215,43 +89,11 @@ const Testimonios = () => {
 						</div>
 					),
 				);
-			case 'Project_Management':
-				return testimoniosData['Project Management'].map(
-					testimonio => (
-						<div
-							key={testimonio.id}
-							className='embla__slide flex-shrink-0 flex-grow-0'
-						>
-							<div className='embla__slide__number md:max-w-[700px] max-w-[290px]'>
-								<h3 className='text-pink-700 text-center lg:p-4 text-[16px] font-bold w-full md:max-w-[700px] max-w-[290px] mx-auto'>
-									<strong>{testimonio.name}</strong>/
-									{testimonio.profession}
-								</h3>
-								<p className='text-white italic md:max-w-[700px] max-w-[290px] md:text-[16px] text-sm w-full md:max-w-auto  mx-auto'>
-									{testimonio.review}
-								</p>
-								<Link
-									href={testimonio.linkedin}
-									target='_blank'
-									className='flex justify-center mt-8'
-								>
-									<Image
-										src='/verLinkedin.svg'
-										alt='LinkedIn'
-										width={118}
-										height={37}
-										className='w-32 md:w-56'
-									/>
-								</Link>
-							</div>
-						</div>
-					),
-				);
 			default:
 				return (
 					<p className='text-white italic md:text-[16px] text-sm w-full md:max-w-auto  mx-auto'>
-						Podés selecionar comentarios de nuestros alumnos
-						en sus distintos cursos
+						Você pode selecionar comentários de nossos alunos
+						em seus diferentes cursos
 					</p>
 				);
 		}
@@ -266,7 +108,7 @@ const Testimonios = () => {
 				<h3
 					className={`${titan.className} text-4xl lg:text-5xl font-semibold`}
 				>
-					TESTIMONIOS
+					RESENHAS
 				</h3>
 				<Image
 					src='/TestimoniosIcons.svg'

@@ -11,9 +11,6 @@ interface Curso {
 type Categoria =
 	| 'desarrollo'
 	| 'marketing'
-	| 'projectManagement'
-	| 'seguridadYData'
-	| 'idiomas';
 
 interface Props {
 	onCategoriaClick: (categoria: Categoria) => void;
@@ -22,7 +19,7 @@ interface Props {
 const botonesCursos: Curso[] = [
 	{
 		id: 1,
-		nombre: 'Desarrollo',
+		nombre: 'Desenvolvimento',
 		action: 'desarrollo',
 	},
 	{
@@ -30,21 +27,6 @@ const botonesCursos: Curso[] = [
 		nombre: 'Marketing',
 		action: 'marketing',
 	},
-	{
-		id: 3,
-		nombre: 'Project Management',
-		action: 'projectManagement',
-	},
-	{
-		id: 4,
-		nombre: 'Seguridad y Data',
-		action: 'seguridadYData',
-	},
-	// {
-	// 	id: 5,
-	// 	nombre: 'Idiomas',
-	// 	action: 'idiomas',
-	// },
 ];
 
 const CursosMobile: React.FC<Props> = ({

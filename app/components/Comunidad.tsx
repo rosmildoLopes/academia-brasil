@@ -68,12 +68,12 @@ const Comunidad = () => {
 					/>
 				</div>
 				<h2 className='text-xl md:text-4xl text-center w-7/12 md:w-full mx-auto mb-10'>
-					SÉ PARTE DE LA{' '}
+				FAÇA PARTE DA{' '}
 					<Link href={'https://comunidadnumen.com/'}>
 						<span
 							className={`${agba.className} text-[#29A9FF] hover:text-firstGreen`}
 						>
-							COMUNIDAD NUMEN
+							COMUNIDADE NUMEN
 						</span>
 					</Link>
 				</h2>
@@ -82,19 +82,19 @@ const Comunidad = () => {
 			<div className='flex flex-wrap flex-row justify-center gap-8 md:gap-16 items-center mb-5 text-center w-8/12 md:w-10/12 mx-auto'>
 				<div className='flex flex-col text-center'>
 					<p className='lg:text-[35px]'>
-						<AnimatedNumbers value={21} />
+						<AnimatedNumbers value={5} />
 					</p>
 					<p className='lg:text-[25px]'>CURSOS</p>
 				</div>
 				<div className='flex flex-col text-center'>
 					<p className='lg:text-[35px]'>
-						<AnimatedNumbers value={30} />
+						<AnimatedNumbers value={10} />
 					</p>
-					<p className='lg:text-[25px]'>DOCENTES</p>
+					<p className='lg:text-[25px]'>PROFESSORES</p>
 				</div>
 				<div className='flex flex-col text-center '>
 					<p className=' lg:text-[35px]'>
-						<AnimatedNumbers value={5} /> K
+						<AnimatedNumbers value={2} /> K
 					</p>
 					<p className='lg:text-[25px]'>GRADUADOS</p>
 				</div>
@@ -103,7 +103,7 @@ const Comunidad = () => {
 			<div className=' items-center mb-16 text-center'>
 				<div className='flex flex-col justify-center items-center relative'>
 					<p className=' lg:text-[35px]'>
-						<AnimatedNumbers value={2} /> K
+						<AnimatedNumbers value={1} /> K
 					</p>
 					<p className='lg:text-[25px] '>
 						<span
@@ -111,7 +111,7 @@ const Comunidad = () => {
 						>
 							GRADUADOS{' '}
 						</span>{' '}
-						TRABAJANDO
+						TRABALHANDO
 					</p>
 				</div>
 

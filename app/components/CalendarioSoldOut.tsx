@@ -85,7 +85,7 @@ const CalendarioMobileSoldOut: React.FC<
 							</div>
 						</div>
 						<div className='p-4 border-r-2 border-black w-full flex flex-col items-start pl-10'>
-							<p className='font-extrabold'>Desde el:</p>
+							<p className='font-extrabold'>De:</p>
 							<p className='font-black text-4xl'>
 								{startDate}
 							</p>
@@ -94,7 +94,7 @@ const CalendarioMobileSoldOut: React.FC<
 					<div className='flex w-3/4'>
 						<div className='p-4 border-r-2 border-black w-1/3 flex flex-col items-start pl-12'>
 							<p className='text-start font-extrabold'>
-								Hasta el:
+								Até:
 							</p>
 							<p className='text-start font-black text-4xl'>
 								{endDate}

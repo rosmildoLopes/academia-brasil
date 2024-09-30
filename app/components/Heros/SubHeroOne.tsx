@@ -1,4 +1,4 @@
-import { agba, titan } from '../font/font';
+import { agba, titan } from '../../font/font';
 import Image from 'next/image';
 
 const SubHeroOne = () => {
@@ -8,23 +8,22 @@ const SubHeroOne = () => {
 				<h2
 					className={`${titan.className} md:text-4xl text-2xl`}
 				>
-					ESTUDIÁ EN ACADEMIA NUMEN
+					ESTUDA NA ACADEMIA NUMEN
 				</h2>
 				<h4
 					className={`${agba.className} md:text-2xl text-base`}
 				>
-					Tu carrera profesional empieza acá
+					Sua carreira profissional começa aqui
 				</h4>
 				<p className='md:text-base py-6 text-xs px-3'>
-					Te enseñamos desde cero{' '}
+					Ensinamos do zero{' '}
 					<strong>
-						las habilidades que las grandes empresas del
-						mundo están buscando
+						as habilidades que grandes empresas do mundo
+						estão procurando
 					</strong>
 					. <br />
-					Miles de egresados de nuestros{' '}
-					<strong>cursos y diplomaturas</strong>, ya están
-					trabajando en el <strong>sector IT</strong>.
+					Milhares de graduados dos nossos cursos já
+					trabalham no <strong>setor de TI</strong> .
 				</p>
 			</div>
 			<div>

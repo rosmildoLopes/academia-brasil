@@ -17,35 +17,36 @@ interface servicioEmpresas {
 const learningData: servicioEmpresas[] = [
 	{
 		id: 1,
-		message: 'Educación Actualizada y de Calidad',
-		boldStart: 27,
+		message: 'Educação Atualizada e de Qualidade',
+		boldStart: 0,
 	},
 	{
 		id: 2,
-		message: 'Clases Online en Vivo',
-		boldStart: 27,
+		message: 'Aulas Online ao Vivo',
+		boldStart: 0,
 	},
 	{
 		id: 3,
-		message: 'La Mejor Plataforma de Educación Digital',
-		boldStart: 27,
+		message: 'A Melhor Plataforma de Educação Digital',
+		boldStart: 8,
 	},
 	{
 		id: 4,
-		message: 'Acompañamiento Personalizado',
-		boldStart: 27,
+		message: 'Acompanhamento Personalizado',
+		boldStart: 0,
 	},
 	{
 		id: 5,
-		message: 'Reportes y Seguimiento',
-		boldStart: 27,
+		message: 'Relatórios e Acompanhamento',
+		boldStart: 0,
 	},
 	{
 		id: 6,
 		message:
-			'Nuestros cursos cuentan con certificado de extensión universitaria',
-		boldStart: 27,
+			'Nossos cursos contam com certificado de extensão universitária',
+		boldStart: 24,
 	},
+
 ];
 
 const Empresas = () => {
@@ -55,7 +56,7 @@ const Empresas = () => {
 				<div
 					className={`${titan.className} text-white text-4xl mx-auto lg:text-8xl lg:mt-10 flex flex-col justify-center items-center w-full md:w-auto  md:px-0 text-center overflow-hidden`}
 				>
-					<p>CAPACITACIONES&nbsp;</p>
+					<p>TREINAMENTO&nbsp;</p>
 					<p className={`${agba.className} text-firstBlue`}>
 						PARA&nbsp;
 					</p>
@@ -75,17 +76,18 @@ const Empresas = () => {
 					className='hidden md:block w-6 md:w-14 absolute -left-3'
 				/>
 				<p className='text-center text-lg md:text-xl  px-6 md:px-20'>
-					En la &nbsp;
+					Na &nbsp;
 					<span className='font-bold '>
-						Academia Numen&nbsp;
+						Numen Academy&nbsp;
 					</span>
-					creemos en el poder de los equipos bien
-					preparados. Por eso, ofrecemos soluciones de
-					capacitación diseñadas para impulsar el
-					crecimiento de tu negocio a través del desarrollo
-					de tus colaboradores. Impulsamos el desarrollo de
-					tus colaboradores. Y tus colaboradores impulsan el
-					éxito de tu empresa.
+					acreditamos no poder de equipes
+					bem preparadas. É por isso que oferecemos soluções
+					de formação pensadas para impulsionar o
+					crescimento do seu negócio através do
+					desenvolvimento dos seus colaboradores. Promovemos
+					o desenvolvimento dos seus colaboradores. E seus
+					colaboradores impulsionam o sucesso da sua
+					empresa.
 				</p>
 				<Image
 					src='/cierreExclamacion.svg'
@@ -100,7 +102,7 @@ const Empresas = () => {
 					<h2
 						className={`${titan.className} text-4xl md:text-4xl mt-32 text-center `}
 					>
-						¿POR QUÉ ELEGIRNOS?
+						POR QUE NOS ESCOLHER?
 					</h2>
 					<Image
 						src='/estrella2Contacto.svg'

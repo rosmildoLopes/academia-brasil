@@ -20,7 +20,7 @@ const Learnings: React.FC<LearningsProps> = ({
 				<h2
 					className={`${titan.className} text-3xl md:text-4xl md:-mb-6`}
 				>
-					¿QUÉ VAS A APRENDER?
+					O QUE VOCÊ VAI APRENDER?
 				</h2>
 			</div>
 			<div className='flex flex-wrap justify-center w-full lg:w-11/12 mx-auto p-7 md:py-20'>
