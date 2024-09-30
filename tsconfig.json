@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/constants/testimoniosData.js", "auth.js", "app/components/GoogleAnalytics.jsx", "app/components/programaForms/ProgramaDataySeguridad.jsx", "app/components/programaForms/ProgramaDesarrollo.jsx", "app/components/programaForms/ProgramaMarketing.jsx", "app/components/programaForms/ProgramaProjectManagement.jsx"],
+  "exclude": ["node_modules"]
+}
