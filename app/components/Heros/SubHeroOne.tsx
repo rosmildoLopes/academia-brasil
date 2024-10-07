@@ -8,7 +8,7 @@ const SubHeroOne = () => {
 				<h2
 					className={`${titan.className} md:text-4xl text-2xl`}
 				>
-					ESTUDA NA ACADEMIA NUMEN
+					ESTUDE NA ACADEMIA NUMEN
 				</h2>
 				<h4
 					className={`${agba.className} md:text-2xl text-base`}
