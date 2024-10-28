@@ -19,7 +19,7 @@ export const docentesProjectManagement: Docente[] = [
 		alt: 'Natalia Basil',
 		name: 'Natalia Basil',
 		profession: ' Especialista en Sistemas de Control',
-		course: 'Project Management Professional PMP N°1941090',
+		course: 'Project Management Professional PMP N°1941090000',
 		extraImages: [
 			{
 				src: '/linkedInDocentes.svg',
