@@ -6,9 +6,9 @@ import { titan } from '../font/font';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Nosotros',
-	description:
-		'Conoce más sobre Academia Numen, nuestra misión, visión y equipo.',
+	title: 'Sobre Nós',
+description: 'Conheça mais sobre a Academia Numen, nossa missão, visão e equipe.',
+
 };
 
 const Nosotros = () => {

@@ -18,9 +18,9 @@ import { Metadata } from 'next';
 import AsesorFrontCalendar from '../components/AsesorFrontCalendar';
 
 export const metadata: Metadata = {
-	title: 'Formación en Marketing Digital',
+	title: 'Formação em Marketing Digital',
 	description:
-		'Ofrecemos formación completa en marketing digital. Conviértete en un experto en SEO, publicidad online y estrategias de contenido. ¡Empieza ahora!',
+		'Oferecemos formação completa em marketing digital. Torne-se um especialista em SEO, publicidade online e estratégias de conteúdo. Comece agora!',
 };
 const eventos = [
 	{
@@ -114,7 +114,7 @@ export default function Marketing() {
 						linkHablarConAsesor={AsesorFrontCalendar({
 							phoneNumber: '5491131262388',
 							message:
-								'Estoy interesado en el curso de Marketing, me gustaría recibir más información',
+								'Estou interessado no curso de Marketing, gostaria de receber mais informações.v',
 						})}
 					/>
 				))}

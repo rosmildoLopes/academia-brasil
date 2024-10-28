@@ -19,8 +19,9 @@ import FullStackForm from '../components/cursos/fullstack/form';
 import AsesorFrontCalendar from '../components/AsesorFrontCalendar';
 
 export const metadata: Metadata = {
-	title: 'Curso de Desarrollo Web Full Stack',
-	description: 'Aprende desarrollo web Full Stack con nuestro curso completo. Domina frontend y backend, y conviértete en un desarrollador web profesional.',
+	title: 'Curso de Desenvolvimento Web Full Stack',
+	description:
+		'Aprenda desenvolvimento web Full Stack com nosso curso completo. Domine frontend e backend, e torne-se um desenvolvedor web profissional.',
 };
 
 const eventos = [
@@ -43,8 +44,7 @@ const eventosSoldOut = [
 const misLearningItems: LearningItem[] = [
 	{
 		id: 1,
-		message:
-			'Criar sites adaptáveis e dinâmicos do zero',
+		message: 'Criar sites adaptáveis e dinâmicos do zero',
 		boldStart: 6,
 	},
 	{
@@ -62,7 +62,6 @@ const misLearningItems: LearningItem[] = [
 		message: 'Tecnologias do lado do servidor (backend)',
 		boldStart: 15,
 	},
-
 ];
 export default function fullstack() {
 	return (
@@ -102,7 +101,7 @@ export default function fullstack() {
 						linkHablarConAsesor={AsesorFrontCalendar({
 							phoneNumber: '5491131262388',
 							message:
-								'Estoy interesado en el curso de Fullstack, me gustaría recibir más información',
+								'Estou interessado no curso de Fullstack, gostaria de receber mais informações.',
 						})}
 						linkInscripcion='https://tienda.academianumen.com.ar/producto/desarrollo-web-full-stack-inicio-agosto-2024-2/'
 					/>
@@ -123,7 +122,7 @@ export default function fullstack() {
 					linkHablarConAsesor={AsesorFrontCalendar({
 						phoneNumber: '5491131262388',
 						message:
-							'Estoy interesado en el curso de Fullstack, me gustaría recibir más información',
+							'Estou interessado no curso de Fullstack, gostaria de receber mais informações.',
 					})}
 					linkInscripcion='https://tienda.academianumen.com.ar/producto/desarrollo-web-full-stack-inicio-agosto-2024-2/'
 				/>

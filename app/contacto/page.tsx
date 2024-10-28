@@ -16,7 +16,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
 	title: 'Contacto',
 	description:
-		'Ponete en contacto con Academia Numen para cualquier consulta o información.',
+		'Entre em contato com a Numen Academy para qualquer consulta ou informação.',
 };
 
 const vocacionFonts = [

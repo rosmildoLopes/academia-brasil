@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
 	title: 'Empresas',
-	description: 'La mejor formacion para tus colaboradores.',
+	description: 'A melhor formação para os seus colaboradores.',
 };
 
 interface servicioEmpresas {

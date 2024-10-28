@@ -9,30 +9,33 @@ import Script from 'next/script';
 const mont = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL('https://www.academianumen.com.ar'),
+	metadataBase: new URL('https://www.academianumen.com.br'),
 	title: {
 		template: '%s | Academia Numen',
 		default: 'Academia Numen',
 	},
 	description:
-		'En Academia Numen, encuentra cursos de marketing, fullstack, frontend, ciberseguridad, agilidad y scrum, project management,data analytics, diseño UX/UI, React, JavaScript, backend y WordPress. Prepárate para el presente con nuestra amplia oferta de formación digital.',
+		'Na Academia Numen, encontre cursos de marketing, fullstack, frontend, cibersegurança, agilidade e scrum, gerenciamento de projetos, análise de dados, design UX/UI, React, JavaScript, backend e WordPress. Prepare-se para o presente com nossa ampla oferta de formação digital.',
 	openGraph: {
 		title: 'Academia Numen',
 		description:
-			'En Academia Numen, encuentra cursos de marketing, fullstack, frontend, ciberseguridad, agilidad y scrum, project management,data analytics, diseño UX/UI, React, JavaScript, backend y WordPress. Prepárate para el presente con nuestra amplia oferta de formación digital.',
-		images:
-			'https://www.academianumen.com.ar/opengraph-image.png',
+			'Na Academia Numen, encontre cursos de marketing, fullstack, frontend, cibersegurança, agilidade e scrum, gerenciamento de projetos, análise de dados, design UX/UI, React, JavaScript, backend e WordPress. Prepare-se para o presente com nossa ampla oferta de formação digital.',
+		images: [
+			'https://www.academianumen.com.br/opengraph-image.png',
+		],
 	},
 	twitter: {
 		card: 'summary_large_image',
 		site: '@Academianumen',
 		title: 'Academia Numen',
 		description:
-			'En Academia Numen, encuentra cursos de marketing, fullstack, frontend, ciberseguridad, agilidad y scrum, project management,data analytics, diseño UX/UI, React, JavaScript, backend y WordPress. Prepárate para el presente con nuestra amplia oferta de formación digital.',
-		images:
-			'https://www.academianumen.com.ar/opengraph-image.png',
+			'Na Academia Numen, encontre cursos de marketing, fullstack, frontend, cibersegurança, agilidade e scrum, gerenciamento de projetos, análise de dados, design UX/UI, React, JavaScript, backend e WordPress. Prepare-se para o presente com nossa ampla oferta de formação digital.',
+		images: [
+			'https://www.academianumen.com.br/opengraph-image.png',
+		],
 	},
 };
+
 
 export default function RootLayout({
 	children,
