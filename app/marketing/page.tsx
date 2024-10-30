@@ -20,7 +20,7 @@ import AsesorFrontCalendar from '../components/AsesorFrontCalendar';
 export const metadata: Metadata = {
 	title: 'Formação em Marketing Digital',
 	description:
-		'Oferecemos formação completa em marketing digital. Torne-se um especialista em SEO, publicidade online e estratégias de conteúdo. Comece agora!',
+		'Oferecemos formação completa em marketing digital.  Torne-se um especialista em SEO , publicidade online e estratégias de conteúdo. Comece agora!',
 };
 const eventos = [
 	{
